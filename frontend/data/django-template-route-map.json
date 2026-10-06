@@ -1,0 +1,260 @@
+{
+  "templates": {
+    "404.html": {
+      "route": "/not-found",
+      "component": "app/not-found.tsx"
+    },
+    "base.html": {
+      "route": "shared",
+      "component": "components/marketing-nav.tsx + site-footer.tsx + support entry point"
+    },
+    "about.html": {
+      "route": "/about",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "analytics.html": {
+      "route": "/analytics",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "api_reference.html": {
+      "route": "/api-reference",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "audit.html": {
+      "route": "/audit",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "billing.html": {
+      "route": "/billing",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "dashboard.html": {
+      "route": "/dashboard",
+      "component": "app/dashboard/page.tsx"
+    },
+    "docs.html": {
+      "route": "/docs",
+      "component": "app/docs/page.tsx"
+    },
+    "faq.html": {
+      "route": "/faq",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "landing.html": {
+      "route": "/",
+      "component": "app/page.tsx"
+    },
+    "platform_dashboard.html": {
+      "route": "/platform",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "playground.html": {
+      "route": "/playground",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "pricing.html": {
+      "route": "/pricing",
+      "component": "app/pricing/page.tsx"
+    },
+    "profile.html": {
+      "route": "/account",
+      "component": "app/account/page.tsx"
+    },
+    "profile copy.html": {
+      "route": "/account",
+      "component": "app/account/page.tsx"
+    },
+    "status.html": {
+      "route": "/status",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "support.html": {
+      "route": "/support",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "teams.html": {
+      "route": "/teams",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "usage_logs.html": {
+      "route": "/usage-logs",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "webhooks.html": {
+      "route": "/webhooks",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "legal/privacy.html": {
+      "route": "/privacy",
+      "component": "app/privacy/page.tsx"
+    },
+    "legal/terms.html": {
+      "route": "/terms",
+      "component": "app/terms/page.tsx"
+    },
+    "account/account_already_exists_message.html": {
+      "route": "/account-exists",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/account_inactive.html": {
+      "route": "/account-inactive",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/auth_base.html": {
+      "route": "shared",
+      "component": "components/auth-shell.tsx"
+    },
+    "account/email/account_already_exists_message.html": {
+      "route": "/account-exists",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/email/email_confirmation_message.html": {
+      "route": "/email-confirmation",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/email/email_confirmation_signup_message.html": {
+      "route": "/verification-sent",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/email/password_reset_key_message.html": {
+      "route": "/reset-password/:key",
+      "component": "app/reset-password/[key]/page.tsx"
+    },
+    "account/email_change.html": {
+      "route": "/change-email",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/email_confirm.html": {
+      "route": "/verify-email/:key",
+      "component": "app/verify-email/[key]/page.tsx"
+    },
+    "account/login.html": {
+      "route": "/login",
+      "component": "app/login/page.tsx"
+    },
+    "account/logout.html": {
+      "route": "/logout",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/password_change.html": {
+      "route": "/change-password",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/password_reset.html": {
+      "route": "/forgot-password",
+      "component": "app/forgot-password/page.tsx"
+    },
+    "account/password_reset_done.html": {
+      "route": "/password-reset-done",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/password_reset_from_key.html": {
+      "route": "/reset-password/:key",
+      "component": "app/reset-password/[key]/page.tsx"
+    },
+    "account/password_reset_from_key_done.html": {
+      "route": "/password-reset-done",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/password_set.html": {
+      "route": "/set-password",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/reauthenticate.html": {
+      "route": "/reauthenticate",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/signup.html": {
+      "route": "/signup",
+      "component": "app/signup/page.tsx"
+    },
+    "account/social_buttons.html": {
+      "route": "shared",
+      "component": "components/social-buttons.tsx"
+    },
+    "account/verification_sent.html": {
+      "route": "/verification-sent",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "account/verified_email_required.html": {
+      "route": "/verified-email-required",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "mfa/base_entrance.html": {
+      "route": "/mfa",
+      "component": "components/auth-shell.tsx"
+    },
+    "mfa/base_manage.html": {
+      "route": "/mfa",
+      "component": "components/dashboard-shell.tsx"
+    },
+    "mfa/index.html": {
+      "route": "/mfa",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/authentication_error.html": {
+      "route": "/social/error",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/base_entrance.html": {
+      "route": "shared",
+      "component": "components/auth-shell.tsx"
+    },
+    "socialaccount/base_manage.html": {
+      "route": "shared",
+      "component": "components/dashboard-shell.tsx"
+    },
+    "socialaccount/connections.html": {
+      "route": "/social/connections",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/login.html": {
+      "route": "/social/approval",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/login_cancelled.html": {
+      "route": "/social/cancelled",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/login_redirect.html": {
+      "route": "/social/redirect",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/signup.html": {
+      "route": "/social/signup",
+      "component": "app/[...legacy]/page.tsx"
+    },
+    "socialaccount/snippets/login_extra.html": {
+      "route": "shared",
+      "component": "components/social-buttons.tsx"
+    },
+    "socialaccount/snippets/provider_list.html": {
+      "route": "shared",
+      "component": "components/social-buttons.tsx"
+    },
+    "account/email/email_confirmation_message.txt": {
+      "route": "/email-confirmation",
+      "component": "Next.js email-confirmation route reference"
+    },
+    "account/email/email_confirmation_subject.txt": {
+      "route": "/email-confirmation",
+      "component": "Next.js email-confirmation route reference"
+    },
+    "account/email/email_confirmation_signup_message.txt": {
+      "route": "/verification-sent",
+      "component": "Next.js verification-sent route reference"
+    },
+    "account/email/email_confirmation_signup_subject.txt": {
+      "route": "/verification-sent",
+      "component": "Next.js verification-sent route reference"
+    },
+    "account/email/password_reset_key_message.txt": {
+      "route": "/reset-password/:key",
+      "component": "Next.js reset-password route reference"
+    },
+    "account/email/password_reset_key_subject.txt": {
+      "route": "/reset-password/:key",
+      "component": "Next.js reset-password route reference"
+    }
+  }
+}

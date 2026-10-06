@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Allow frontend folder
+!frontend/
+!frontend/**
+
+# Ignore generated/dependency folders inside frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Ignore any node_modules/.next anywhere
+**/node_modules/
+**/.next/
+
+# Allow root README
+!README.md
+
+# Allow root gitignore
+!.gitignore
